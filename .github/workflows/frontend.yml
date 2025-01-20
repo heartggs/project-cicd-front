@@ -23,6 +23,7 @@ jobs:
         run: |
           echo "${{secrets.CLIENT_ENV}}" > .env
           pwd
+          ls -al
       # 빌드를 위한 조건 -> nodejs 설치
       # npm install 라이브러리 설치
       # 빌드
